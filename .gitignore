@@ -1,0 +1,70 @@
+# -------------------------------
+# Python bytecode and cache files
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------------
+# Virtual environment folders
+# -------------------------------
+venv/
+env/
+.venv/
+
+# -------------------------------
+# SQLite database & artifacts
+# -------------------------------
+*.db
+*.sqlite3
+*.sqlite
+news_summaries.db
+
+# -------------------------------
+# Log files
+# -------------------------------
+*.log
+logs/
+nohup.out
+
+# -------------------------------
+# Temporary or generated files
+# -------------------------------
+*.tmp
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/
+
+# -------------------------------
+# Model / transformer cache
+# -------------------------------
+.cache/
+transformers_cache/
+huggingface/
+~/.cache/
+
+# -------------------------------
+# Environment variables / secrets
+# -------------------------------
+.env
+.env.*
+*.token
+*.key
+*.secret
+
+# -------------------------------
+# GitHub Actions artifacts
+# -------------------------------
+*.zip
+*.tar.gz
+
+# -------------------------------
+# OS-specific
+# -------------------------------
+Thumbs.db
+desktop.ini
